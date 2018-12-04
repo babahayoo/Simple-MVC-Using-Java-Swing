@@ -12,12 +12,13 @@ public class ControllerLogin {
     
     private ViewLogin viewLogin;
     private ModelLogin modelLogin;
-    
+
     public ControllerLogin(ViewLogin viewLogin,ModelLogin modelLogin){
         
         this.viewLogin = viewLogin;
         this.modelLogin = modelLogin;
-        
+
+
         
         viewLogin.login.addActionListener(new ActionListener() {
             @Override
